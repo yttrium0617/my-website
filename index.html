@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>リンクボタンサイト</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .button-container {
+      max-width: 400px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    button {
+      width: 100%;
+      padding: 15px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      background-color: #3498db;
+      color: white;
+      transition: background-color 0.2s;
+    }
+
+    button:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <h1>リンク一覧</h1>
+
+  <div class="button-container">
+    <button onclick="location.href='https://example.com/1'">リンク 1</button>
+    <button onclick="location.href='https://example.com/2'">リンク 2</button>
+    <button onclick="location.href='https://example.com/3'">リンク 3</button>
+    <button onclick="location.href='https://example.com/4'">リンク 4</button>
+    <button onclick="location.href='https://example.com/5'">リンク 5</button>
+    <button onclick="location.href='https://example.com/6'">リンク 6</button>
+    <button onclick="location.href='https://example.com/7'">リンク 7</button>
+    <button onclick="location.href='https://example.com/8'">リンク 8</button>
+  </div>
+</body>
+</html>
